@@ -18,7 +18,7 @@ const App: React.FC = () => {
     "Platinum",  // From 100,000 coins to 999,999 coins
     "Diamond",   // From 1,000,000 coins to 2,000,000 coins
     "Epic",      // From 2,000,000 coins to 10,000,000 coins
-    "Legendary", // From 10,000,000 coins to 50,000,000 coins
+    "Hitman", // From 10,000,000 coins to 50,000,000 coins
     "Master",    // From 50,000,000 coins to 100,000,000 coins
     "GrandMaster", // From 100,000,000 coins to 1,000,000,000 coins
     "Lord"       // From 1,000,000,000 coins to ∞
@@ -245,8 +245,8 @@ const App: React.FC = () => {
       {/* Bottom fixed div */}
       <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-[calc(100%-2rem)] max-w-xl bg-[#272a2f] flex justify-around items-center z-50 rounded-3xl text-xs">
         <div className="text-center text-[#85827d] w-1/5 bg-[#1c1f24] m-1 p-2 rounded-2xl">
-          <img src={binanceLogo} alt="Exchange" className="w-8 h-8 mx-auto" />
-          <p className="mt-1">Exchange</p>
+          <img src={binanceLogo} alt="Home" className="w-8 h-8 mx-auto" />
+          <p className="mt-1">Home</p>
         </div>
         <div className="text-center text-[#85827d] w-1/5">
           <Mine className="w-8 h-8 mx-auto" />
