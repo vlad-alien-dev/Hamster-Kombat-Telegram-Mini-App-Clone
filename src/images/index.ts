@@ -8,9 +8,9 @@ import mainCharacter from "./main-character.png";
 import hamsterCoin from "./hamster-coin.png";
 import outerBackground from "./dark-brick-wall.png";
 import boatWindow from "./boat-window.png";
-import gangsterlvl1 from ".gangsters/gangster1.jpg";
-import gangsterlvl2 from ".gangsters/gangster2.jpg";
-import gangsterlvl3 from ".gangsters/gangster3.jpg";
+import gangsterlvl1 from "./gangsters/gangster1.jpg";
+import gangsterlvl2 from "./gangsters/gangster2.jpg";
+import gangsterlvl3 from "./gangsters/gangster3.jpg";
 
 export {
     hamsterExchange,
