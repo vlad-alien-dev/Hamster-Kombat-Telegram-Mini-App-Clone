@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Hamster from './icons/Hamster';
-import { binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, outerBackground, boatWindow, gangsterlvl1, gangsterlvl2, gangsterlvl3 } from './images';
+import { mainLogo, binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, outerBackground, boatWindow, gangsterlvl1, gangsterlvl2, gangsterlvl3 } from './images';
 import Info from './icons/Info';
 import Settings from './icons/Settings';
 import Mine from './icons/Mine';
@@ -139,7 +139,8 @@ const App: React.FC = () => {
         <div className="px-4 z-10">
           <div className="flex items-center space-x-2 pt-4">
             <div className="p-1 rounded-lg bg-[#d12836]">
-              <Hamster size={24} className="text-[#d4d4d4]" />
+              <!--<Hamster size={24} className="text-[#d4d4d4]" />-->
+                <img src={mainLogo} alt="Logo" className="mx-auto w-12 h-12" />
             </div>
             <div>
               <p className="text-sm">VladHiMars</p>
@@ -224,7 +225,7 @@ const App: React.FC = () => {
               <div
                 className="w-80 h-80 rounded-full circle-outer" style={{
                         backgroundImage: `url(${mainCharacter})`,
-                        backgroundSize: '70%',
+                        backgroundSize: '73%',
                         backgroundPosition: 'center', // Ensures the image is centered
                         backgroundRepeat: 'no-repeat', // Prevents tiling of the image
                       }}
