@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Hamster from './icons/Hamster';
 import { mainLogo, binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, outerBackground, boatWindow, gangsterlvl1, gangsterlvl2, gangsterlvl3 } from './images';
 import Info from './icons/Info';
 import Settings from './icons/Settings';
