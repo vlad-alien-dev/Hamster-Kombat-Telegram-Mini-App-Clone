@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import { mainLogo, binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, outerBackground, boatWindow, gangsterlvl1, gangsterlvl2, gangsterlvl3 } from './images';
+import { mainLogo, binanceLogo, dailyCipher, dailyCombo, dollarCoin, hamsterCoin, outerBackground, boatWindow, gangsterlvl1, gangsterlvl2, gangsterlvl3 } from './images';
 import Info from './icons/Info';
 import Settings from './icons/Settings';
 import Mine from './icons/Mine';
@@ -43,7 +43,6 @@ const App: React.FC = () => {
   const pointsToAdd = 11;
   const profitPerHour = 126420;
 
-  const [dailyRewardTimeLeft, setDailyRewardTimeLeft] = useState("");
   const [dailyCipherTimeLeft, setDailyCipherTimeLeft] = useState("");
   const [dailyComboTimeLeft, setDailyComboTimeLeft] = useState("");
 
@@ -68,7 +67,6 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const updateCountdowns = () => {
-      setDailyRewardTimeLeft(calculateTimeLeft(0));
       setDailyCipherTimeLeft(calculateTimeLeft(19));
       setDailyComboTimeLeft(calculateTimeLeft(12));
     };
