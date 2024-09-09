@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Hamster from './icons/Hamster';
-import { binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, mainCharacter, outerBackground } from './images';
+import { binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, mainCharacter, outerBackground, boatWindow } from './images';
 import Info from './icons/Info';
 import Settings from './icons/Settings';
 import Mine from './icons/Mine';
@@ -219,11 +219,17 @@ const App: React.FC = () => {
                         backgroundImage: `url(${outerBackground})`
                       }}>
               <div
-                className="w-80 h-80 p-4 rounded-full circle-outer"
+                className="w-80 h-80 p-4 rounded-full circle-outer" style={{
+                        backgroundImage: `url(${boatWindow})`,
+                        backgroundSize: 'contain',
+                        backgroundPosition: 'center', // Ensures the image is centered
+                        backgroundRepeat: 'no-repeat', // Prevents tiling of the image
+                        borderRadius: '9999px', // Makes the div fully rounded
+                      }}>
                 onClick={handleCardClick}
               >
-                <div className="w-full h-full rounded-full circle-inner">
-                  <img src={mainCharacter} alt="Main Character" className="w-full h-full" />
+                <div class="w-full h-full absolute inset-0 flex items-center justify-center">
+                  <img src={mainCharacter} alt="Main Character" class="w-3/4 h-3/4 object-contain">
                 </div>
               </div>
             </div>
