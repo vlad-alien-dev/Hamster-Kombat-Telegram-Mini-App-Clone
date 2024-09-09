@@ -220,16 +220,19 @@ const App: React.FC = () => {
                       }}>
               <div
                 className="w-80 h-80 p-4 rounded-full circle-outer" style={{
+                        backgroundImage: `url(${mainCharacter})`,
+                        backgroundSize: 'contain',
+                        backgroundPosition: 'center', // Ensures the image is centered
+                        backgroundRepeat: 'no-repeat', // Prevents tiling of the image
+                      }}
+              >
+                <div className="w-full h-full rounded-full circle-inner" style={{
                         backgroundImage: `url(${boatWindow})`,
                         backgroundSize: 'contain',
                         backgroundPosition: 'center', // Ensures the image is centered
                         backgroundRepeat: 'no-repeat', // Prevents tiling of the image
-                        borderRadius: '9999px', // Makes the div fully rounded
                       }}
-                onClick={handleCardClick}
-              >
-                <div className="w-full h-full absolute inset-0 flex items-center justify-center">
-                  <img src={mainCharacter} alt="Main Character" className="w-3/4 h-3/4 object-contain"/>
+                onClick={handleCardClick}>
                 </div>
               </div>
             </div>
