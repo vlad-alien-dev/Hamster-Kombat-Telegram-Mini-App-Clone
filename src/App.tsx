@@ -178,31 +178,25 @@ const App: React.FC = () => {
         <div className="flex-grow mt-4 bg-[#d12836] rounded-t-[48px] relative top-glow z-0">
           <div className="absolute top-[2px] left-0 right-0 bottom-0 bg-[#1d2025] rounded-t-[46px]">
             <div className="px-4 mt-6 flex justify-between gap-2">
-              <div className="bg-[#272a2f] rounded-lg px-4 py-2 w-full relative">
-                <div className="dot"></div>
-                <img src={dailyReward} alt="Daily Reward" className="mx-auto w-12 h-12" />
-                <p className="text-[10px] text-center text-white mt-1">Daily reward</p>
-                <p className="text-[10px] font-medium text-center text-gray-400 mt-2">{dailyRewardTimeLeft}</p>
-              </div>
-              <div className="bg-[#272a2f] rounded-lg px-4 py-2 w-full relative">
+              <div className="metal-button rounded-lg px-4 py-2 w-full relative">
                 <div className="dot"></div>
                 <img src={dailyCipher} alt="Jobs" className="mx-auto w-12 h-12" />
                 <p className="text-[10px] text-center text-white mt-1">Jobs</p>
                 <p className="text-[10px] font-medium text-center text-gray-400 mt-2">{dailyCipherTimeLeft}</p>
               </div>
-              <div className="bg-[#272a2f] rounded-lg px-4 py-2 w-full relative">
+              <div className="metal-button rounded-lg px-4 py-2 w-full relative">
                 <div className="dot"></div>
                 <img src={dailyCipher} alt="Fights" className="mx-auto w-12 h-12" />
                 <p className="text-[10px] text-center text-white mt-1">Fights</p>
                 <p className="text-[10px] font-medium text-center text-gray-400 mt-2">{dailyCipherTimeLeft}</p>
               </div>
-              <div className="bg-[#272a2f] rounded-lg px-4 py-2 w-full relative">
+              <div className="metal-button rounded-lg px-4 py-2 w-full relative">
                 <div className="dot"></div>
                 <img src={dailyCombo} alt="Properties" className="mx-auto w-12 h-12" />
                 <p className="text-[10px] text-center text-white mt-1">Properties</p>
                 <p className="text-[10px] font-medium text-center text-gray-400 mt-2">{dailyComboTimeLeft}</p>
               </div>
-              <div className="bg-[#272a2f] rounded-lg px-4 py-2 w-full relative">
+              <div className="metal-button rounded-lg px-4 py-2 w-full relative">
                 <div className="dot"></div>
                 <img src={dailyCombo} alt="Inventory" className="mx-auto w-12 h-12" />
                 <p className="text-[10px] text-center text-white mt-1">Inventory</p>
