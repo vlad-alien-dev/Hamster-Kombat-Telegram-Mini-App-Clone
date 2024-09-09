@@ -222,9 +222,9 @@ const App: React.FC = () => {
                         backgroundImage: `url(${outerBackground})`
                       }}>
               <div
-                className="w-80 h-80 p-4 rounded-full circle-outer" style={{
+                className="w-80 h-80 rounded-full circle-outer" style={{
                         backgroundImage: `url(${mainCharacter})`,
-                        backgroundSize: 'contain',
+                        backgroundSize: '70%',
                         backgroundPosition: 'center', // Ensures the image is centered
                         backgroundRepeat: 'no-repeat', // Prevents tiling of the image
                       }}
