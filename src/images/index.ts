@@ -1,5 +1,5 @@
 import hamsterExchange from "./hamster-exchange.png";
-import binanceLogo from "./binance-logo.png";
+import binanceLogo from "./home-sweet-home.png";
 import dollarCoin from "./silver-dollar.png";
 import dailyReward from "./daily-reward.png";
 import dailyCipher from "./daily-cipher.png";
