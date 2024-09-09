@@ -229,7 +229,7 @@ const App: React.FC = () => {
                 onClick={handleCardClick}
               >
                 <div class="w-full h-full absolute inset-0 flex items-center justify-center">
-                  <img src={mainCharacter} alt="Main Character" class="w-3/4 h-3/4 object-contain">
+                  <img src={mainCharacter} alt="Main Character" class="w-3/4 h-3/4 object-contain"/>
                 </div>
               </div>
             </div>
