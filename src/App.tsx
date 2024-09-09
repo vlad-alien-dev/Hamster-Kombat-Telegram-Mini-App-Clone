@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Hamster from './icons/Hamster';
-import { binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, mainCharacter } from './images';
+import { binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, mainCharacter, outerBackground } from './images';
 import Info from './icons/Info';
 import Settings from './icons/Settings';
 import Mine from './icons/Mine';
@@ -135,7 +135,7 @@ const App: React.FC = () => {
       <div className="w-full bg-black text-white h-screen font-bold flex flex-col max-w-xl">
         <div className="px-4 z-10">
           <div className="flex items-center space-x-2 pt-4">
-            <div className="p-1 rounded-lg bg-[#1d2025]">
+            <div className="p-1 rounded-lg bg-[#d12836]">
               <Hamster size={24} className="text-[#d4d4d4]" />
             </div>
             <div>
@@ -215,7 +215,9 @@ const App: React.FC = () => {
               </div>
             </div>
 
-            <div className="px-4 mt-4 flex justify-center">
+            <div className="px-4 mt-4 flex justify-center" style={{
+                        backgroundImage: `url(${outerBackground})`
+                      }}>
               <div
                 className="w-80 h-80 p-4 rounded-full circle-outer"
                 onClick={handleCardClick}
