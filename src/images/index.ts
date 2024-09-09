@@ -5,6 +5,7 @@ import dailyReward from "./daily-reward.png";
 import dailyCipher from "./daily-cipher.png";
 import dailyCombo from "./daily-combo.png";
 import mainCharacter from "./main-character.png";
+import mainLogo from "./logo-2.png";
 import hamsterCoin from "./blood-drop.png";
 import outerBackground from "./dark-brick-wall.png";
 import boatWindow from "./boat-window.png";
@@ -20,6 +21,7 @@ export {
     dailyCipher,
     dailyCombo,
     mainCharacter,
+    mainLogo,
     hamsterCoin,
     outerBackground,
     boatWindow,
