@@ -139,7 +139,7 @@ const App: React.FC = () => {
               <Hamster size={24} className="text-[#d4d4d4]" />
             </div>
             <div>
-              <p className="text-sm">Nikandr (CEO)</p>
+              <p className="text-sm">VladHiMars</p>
             </div>
           </div>
           <div className="flex items-center justify-between space-x-4 mt-1">
@@ -184,14 +184,26 @@ const App: React.FC = () => {
               </div>
               <div className="bg-[#272a2f] rounded-lg px-4 py-2 w-full relative">
                 <div className="dot"></div>
-                <img src={dailyCipher} alt="Daily Cipher" className="mx-auto w-12 h-12" />
-                <p className="text-[10px] text-center text-white mt-1">Daily cipher</p>
+                <img src={dailyCipher} alt="Jobs" className="mx-auto w-12 h-12" />
+                <p className="text-[10px] text-center text-white mt-1">Jobs</p>
                 <p className="text-[10px] font-medium text-center text-gray-400 mt-2">{dailyCipherTimeLeft}</p>
               </div>
               <div className="bg-[#272a2f] rounded-lg px-4 py-2 w-full relative">
                 <div className="dot"></div>
-                <img src={dailyCombo} alt="Daily Combo" className="mx-auto w-12 h-12" />
-                <p className="text-[10px] text-center text-white mt-1">Daily combo</p>
+                <img src={dailyCipher} alt="Fights" className="mx-auto w-12 h-12" />
+                <p className="text-[10px] text-center text-white mt-1">Fights</p>
+                <p className="text-[10px] font-medium text-center text-gray-400 mt-2">{dailyCipherTimeLeft}</p>
+              </div>
+              <div className="bg-[#272a2f] rounded-lg px-4 py-2 w-full relative">
+                <div className="dot"></div>
+                <img src={dailyCombo} alt="Properties" className="mx-auto w-12 h-12" />
+                <p className="text-[10px] text-center text-white mt-1">Properties</p>
+                <p className="text-[10px] font-medium text-center text-gray-400 mt-2">{dailyComboTimeLeft}</p>
+              </div>
+              <div className="bg-[#272a2f] rounded-lg px-4 py-2 w-full relative">
+                <div className="dot"></div>
+                <img src={dailyCombo} alt="Inventory" className="mx-auto w-12 h-12" />
+                <p className="text-[10px] text-center text-white mt-1">Inventory</p>
                 <p className="text-[10px] font-medium text-center text-gray-400 mt-2">{dailyComboTimeLeft}</p>
               </div>
             </div>
