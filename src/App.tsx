@@ -225,7 +225,7 @@ const App: React.FC = () => {
                         backgroundPosition: 'center', // Ensures the image is centered
                         backgroundRepeat: 'no-repeat', // Prevents tiling of the image
                         borderRadius: '9999px', // Makes the div fully rounded
-                      }}>
+                      }}
                 onClick={handleCardClick}
               >
                 <div class="w-full h-full absolute inset-0 flex items-center justify-center">
