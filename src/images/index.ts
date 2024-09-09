@@ -7,6 +7,7 @@ import dailyCombo from "./daily-combo.png";
 import mainCharacter from "./main-character.png";
 import hamsterCoin from "./hamster-coin.png";
 import outerBackground from "./dark-brick-wall.png";
+import boatWindow from "./boat-window.png";
 
 export {
     hamsterExchange,
@@ -17,5 +18,6 @@ export {
     dailyCombo,
     mainCharacter,
     hamsterCoin,
-    outerBackground
+    outerBackground,
+    boatWindow
 };
