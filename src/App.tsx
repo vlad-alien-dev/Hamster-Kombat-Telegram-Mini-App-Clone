@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import { mainLogo, binanceLogo, dailyCipher, dailyCombo, dollarCoin, hamsterCoin, outerBackground, boatWindow, gangsterlvl1, gangsterlvl2, gangsterlvl3 } from './images';
+import { mainLogo, binanceLogo, dailyReward, dailyCipher, dailyCombo, dollarCoin, hamsterCoin, outerBackground, boatWindow, gangsterlvl1, gangsterlvl2, gangsterlvl3 } from './images';
 import Info from './icons/Info';
 import Settings from './icons/Settings';
 import Mine from './icons/Mine';
@@ -190,7 +190,7 @@ const App: React.FC = () => {
               </div>
               <div className="metal-button rounded-lg px-4 py-2 w-full relative">
                 <div className="dot"></div>
-                <img src={dailyCombo} alt="Properties" className="mx-auto w-12 h-12" />
+                <img src={dailyReward} alt="Properties" className="mx-auto w-12 h-12" />
                 <p className="text-[10px] text-center text-white mt-1">Properties</p>
                 <p className="text-[10px] font-medium text-center text-gray-400 mt-2">{dailyComboTimeLeft}</p>
               </div>
