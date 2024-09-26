@@ -140,7 +140,7 @@ const App: React.FC = () => {
             </div>
             <div>
               <p className="text-sm">DappDexCryptoPlayer123</p>
-              <p style="display:none;" className="text-sm">VladHiMars</p>
+              <p style={{ display: 'none' }} className="text-sm">VladHiMars</p>
             </div>
           </div>
           <div className="flex items-center justify-between space-x-4 mt-1">
