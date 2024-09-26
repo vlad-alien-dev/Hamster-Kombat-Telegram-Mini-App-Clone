@@ -1,6 +1,7 @@
 import hamsterExchange from "./hamster-exchange.png";
 import binanceLogo from "./home-sweet-home.png";
 import dollarCoin from "./silver-dollar.png";
+import dailyJobs from "./daily-jobs.png";
 import dailyReward from "./daily-reward.png";
 import dailyCipher from "./daily-cipher.png";
 import dailyCombo from "./daily-combo.png";
@@ -17,6 +18,7 @@ export {
     hamsterExchange,
     binanceLogo,
     dollarCoin,
+    dailyJobs,
     dailyReward,
     dailyCipher,
     dailyCombo,
